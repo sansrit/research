@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'Screens/info_page.dart';
+import 'package:research/Screens/lesson1.dart';
 
 void main() => runApp(Myapp());
 
@@ -13,7 +12,7 @@ class Myapp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.lightGreenAccent,
       ),
-      home: Info1(),
+      home: Color(),
     );
   }
 }
